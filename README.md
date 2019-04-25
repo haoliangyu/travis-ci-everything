@@ -48,6 +48,18 @@ script:
   - npm test
 ```
 
+### Cross-platform
+
+``` yaml
+language: node_js
+os:
+  - linux
+  - osx
+  - windows
+script:
+  - npm test
+```
+
 ## Deployment
 
 ### GitHub Pages
